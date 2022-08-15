@@ -14,3 +14,12 @@ body {
     padding: 0;    
 }
 
+
+
+.hero-container{
+    background-image: url("Assets/images/KINGS\ 2019-00013.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+}
