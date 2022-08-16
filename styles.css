@@ -135,3 +135,24 @@ nav{
     background-color: #F5F5F5;
 }
 
+/* LINKS SECTION */
+
+#links{
+    padding: 6rem 4rem;
+}
+
+/* NEWS SECTION */
+
+#news{
+    padding: 2rem;
+}
+
+.card-group{
+    gap: 2rem;
+}
+
+.card-img-top{
+    max-height: 60%;
+    object-fit: cover;
+    object-position: center;
+}
