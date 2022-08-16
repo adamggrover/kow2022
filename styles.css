@@ -138,12 +138,16 @@ nav{
 /* LINKS SECTION */
 
 #links{
-    padding: 6rem 4rem;
+    padding: 4rem 4rem;
 }
 
 /* NEWS SECTION */
 
-#news{
+
+
+
+.section-heading{
+    text-align: center;
     padding: 2rem;
 }
 
