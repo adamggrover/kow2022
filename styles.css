@@ -63,23 +63,23 @@ html {
 
 
 
+
 body {
     margin: 0;
     padding: 0; 
-    font-family: Archivo;
     color: black;
+    overflow-x: hidden;
     
     
 }
 
 
 
-
-
+/* HERO SECTION */
 
 .hero-container{
     /* background image */
-    background-image: url("/Assets/images/KINGS\ 2019-00013.jpg");
+    background-image: url("/Assets/images/boy-on-pc.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -122,3 +122,16 @@ nav{
   .hero-footer{
     text-align: center;
   }
+
+/* WELCOME SECTION */
+
+#welcome{
+
+    padding-top: 4rem;
+}
+
+.welcome-text{
+    padding: 5rem;
+    background-color: #F5F5F5;
+}
+
