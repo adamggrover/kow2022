@@ -16,11 +16,27 @@ body {
 
 
 
-.hero{
-    background-image: url("Assets/images/KINGS\ 2019-00013.jpg");
+.hero-container{
+    /* background image */
+    background-image: url("/Assets/images/KINGS\ 2019-00013.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height:100vh;
     width: 100vw;
+    
+    /* align navbar logo and social links */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .hero-footer{
+    text-align: center;
+  }
