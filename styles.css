@@ -178,6 +178,11 @@ nav{
 
 /* CALENDAR SECTION */
 
+#calendar-section{
+    padding: 0 1rem;
+    
+}
+
 .calendar-card{
     background-color: #5B2A84;
     padding: 0 1rem;
