@@ -138,8 +138,13 @@ nav{
 
 /* NEWS SECTION */
 
+#news{
+    padding-bottom: 3rem;
+}
+
 .news-wrapper{
     background-color: #F5F5F5;
+    padding-bottom: 1.5rem;
     margin: 2rem 3rem;
 }
 
