@@ -79,7 +79,7 @@ body {
 
 .hero-container{
     /* background image */
-    background-image: url("/Assets/images/boy-on-pc.jpg");
+    background-image: url("Assets/images/boy-on-pc.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
