@@ -136,19 +136,24 @@ nav{
     padding: 4rem 4rem;
 }
 
+.img-link{
+    padding-bottom: 1rem;
+}
+
 /* NEWS SECTION */
 
 
 .news-wrapper{
-    background-color: #F5F5F5;
+   
     padding-bottom: 2rem;
     margin: 0 2rem;
+    
 }
 
 
 .section-headings{
     text-align: center;
-    padding: 2rem 0 1rem 0;
+    padding: 1.5rem 0 1rem 0;
     
 }
 
@@ -158,15 +163,18 @@ nav{
 
 .card-group-news{
     gap:2rem;
-    padding: 0.5rem 2rem 0 2rem;
-    
 }
 
-.card-img-top{
+
+
+.card-img{
     max-height: 60%;
+    
     object-fit: cover;
     object-position: center;
 }
+
+
 
 /* CALENDAR SECTION */
 
