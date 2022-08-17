@@ -161,14 +161,14 @@ nav{
     text-align: center;
 }
 
-.card-group-news{
+.card-group{
     gap:2rem;
 }
 
 
 
-.card-img{
-    max-height: 60%;
+.card-img-top{
+    height: 60%;
     
     object-fit: cover;
     object-position: center;
