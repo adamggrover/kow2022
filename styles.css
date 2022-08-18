@@ -184,7 +184,7 @@ nav{
 
 #welcome{
 
-    padding-top: 4rem;
+    padding-top: 5rem;
 }
 
 .welcome-text{
@@ -196,6 +196,7 @@ nav{
 
 #links{
     padding: 4rem 4rem;
+    margin-top: 3rem;
 }
 
 .img-link{
