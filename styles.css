@@ -189,6 +189,7 @@ nav{
     max-width: fit-content;
     min-height: 15rem;    
     color: white;    
+    border-radius: 0;
 }
 
 .calendar-card-group{
