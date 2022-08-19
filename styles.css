@@ -200,9 +200,51 @@ nav{
     margin-top: 3rem;
 }
 
-.img-link{
-    padding-bottom: 1rem;
+
+
+.img-div1{
+    background-image: url('Assets/images/hockey-church.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    height:100%;
+    width: 100%;
 }
+
+.mask{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.30));
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overlay{
+    
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #5B2A84;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
 
 /* NEWS SECTION */
 
