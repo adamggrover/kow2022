@@ -13,6 +13,9 @@
      <link rel="stylesheet" href="styles.css">
      <!--Link to AOS-->
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- Link to Slick-->
+     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
 </head>
 
 <body>
@@ -59,17 +62,28 @@
         <!--HOMEPAGE LINKS SECTION-->
         <section id="links" class="container">
             <div class="row">
-                <div class="col-sm-3" data-aos="fade-up" data-aos-delay="100">
-                    <img src="Assets/images/hockey-church.jpg" alt="girls playing hockey with church in the background" class="img-fluid img-link">
+                <div class="col-sm-3 d-block" data-aos="fade-up" data-aos-delay="100">
+                    
+                    <div class="overlay">
+                        <img src="Assets/images/hockey-church.jpg" alt="girls playing hockey with church in the background" class="img-fluid img-link">
+                        
+                    </div>
+                    
                 </div>
                 <div class="col-sm-3" data-aos="fade-up" data-aos-delay="200">
-                    <img src="Assets/images/sixth-formers-boy-and-girl.jpg" alt="students studying and smiling" class="img-fluid img-link">
+                    <div class="overlay">
+                        <img src="Assets/images/sixth-formers-boy-and-girl.jpg" alt="students studying and smiling" class="img-fluid img-link">
+                    </div>
                 </div>
                 <div class="col-sm-3" data-aos="fade-up" data-aos-delay="300">
-                    <img src="Assets/images/violin.jpg" alt="A girl playing the violin" class="img-fluid img-link">
+                    <div class="overlay">
+                        <img src="Assets/images/violin.jpg" alt="A girl playing the violin" class="img-fluid img-link">
+                    </div>
                 </div>
                 <div class="col-sm-3" data-aos="fade-up" data-aos-delay="400">
-                    <img src="Assets/images/sixth-formers.jpg" alt="sixth form students sat on the ruins outside the school" class="img-fluid img-link">
+                    <div class="overlay">
+                        <img src="Assets/images/sixth-formers.jpg" alt="sixth form students sat on the ruins outside the school" class="img-fluid img-link">
+                    </div>
                 </div>
             </div>
 
@@ -152,6 +166,8 @@
 
         </section>
     </main>
+
+    <!-- FOOTER SECTION-->
     <footer class="container-fluid">
         <div class="footer-content container">
             <div class="row footer-logo">
@@ -197,9 +213,13 @@
 
         </div>
     </footer>
+    <!-- Link to AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS Intialise -->
     <script>
         AOS.init();
       </script>
+
+
 </body>
 </html>
