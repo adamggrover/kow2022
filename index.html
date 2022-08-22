@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <!--HERO SECTION-->
+    <!--HERO SECTION
     
     <div class="hero-container">
     
@@ -45,26 +45,41 @@
         
     </div>
 
-    <!-- NEW HERO-->
+    -->
 
 
-    <div class="container-fluid">
+
         <div class="home-hero-slider desktop-slider">
             <div class="slide" id="slide-1">
             <div class="slide-content">
-            <h3>Test Text</h3>
+                <header class="row container-fluid p-0 m-0">
+                    <nav class="col-4">
+                        <i class="fa-solid fa-bars fa-lg header-icon"></i>              
+                    </nav>
+                    
+                    <img src="Assets/logos/KINGS ACADEMY LANDSCAPE LOGO.svg" alt="Kings Academy Logo" class="logo col-4">
+                    
+                    <div class="social col-4">
+                        <i class="fa-brands fa-twitter header-icon"></i>
+                        <i class="fa-brands fa-facebook-f header-icon"></i>
+                        <i class="fa-solid fa-magnifying-glass header-icon"></i>
+                    </div>
+                </header>
+                <div class="hero-footer">
+                    <h3 class="display-4">BELIEVE <span class="reg">AND<span> SUCCEED</h3>
+                </div>
             </div>
             </div>
             <div class="slide" id="slide-2"></div>
             <div class="slide" id="slide-3"></div>
         </div>
+
         <div class="home-hero-slider mobile-slider">
             <div class="slide" id="slide-1-mobile"></div>
             <div class="slide" id="slide-2-mobile"></div>
             <div class="slide" id="slide-3-mobile"></div>
         </div>
-    </div>
-
+    
 
     
     
@@ -285,16 +300,20 @@
         
         $(document).ready(function(){
         $('.home-hero-slider').slick({
-            slidesToShow: 1,
-            dots: true,
+            
+            dots: false,
             infinite: true,
-            draggable:true,
+            speed: 100,
+            fade: true,
+            cssEase: 'linear'
+            
+            
+            
         });
         });
     </script>
     
 
- 
 
 
 
