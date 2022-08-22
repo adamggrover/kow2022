@@ -135,7 +135,7 @@ a{
     animation-iteration-count: 1;
 }
 
-  
+
 
 /* HERO SECTION */
 
@@ -159,6 +159,7 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     flex: 0 1 auto;
+    
     
 }
 
@@ -191,53 +192,39 @@ nav{
 
 .home-hero-slider.desktop-slider{
     width:100%;
-    height:35vw;
+    height:100vw;
+    
+    
   }
   
-  .slick-prev.slick-arrow {
-      position: absolute;
-      top: 50%;
-      width: 50px;
-      left: 0;
-      z-index:100;
-  }
-  .slick-next.slick-arrow {
-      position: absolute;
-      top: 50%;
-      width: 50px;
-      right: 0;
-      z-index:100;
-  }
-  .slick-dots{
-    bottom:30px!important;
-    z-index:100;
-  }
   
   /*Desktop Slider*/
   
   .desktop-slider .slide{
-    height:35vw;
+    height:100vh;
+    
     width:100%!important;
     display:flex;
     align-items:center;
     justify-content:center;
     background-size:cover;
     background-repeat:no-repeat;
-    background-position:center;
+    background-position:top;
   }
   #slide-1{
-    background-image:url('Assets/images/art-girls.jpg');
+    background-image:url('Assets/images/sixth-formers.jpg');
     display:flex;
     align-items:flex-start;
     justify-content:center;
-    padding-left:30vw;
+    
     box-sizing:border-box;
   }
   .slide-content{
     width:100%;
+    height: auto;
     position:relative;
-    padding-top:15vw;
-    box-sizing:border-box;
+    
+    
   }
   
   #slide-2{
@@ -249,7 +236,7 @@ nav{
   
   /*Mobile Slider*/
   .mobile-slider .slide{
-    height:70vw;
+    height:100vh;
     width:100%!important;
     display:flex;
     align-items:center;
@@ -298,6 +285,7 @@ nav{
 #welcome{
 
     padding-top: 5rem;
+    
 }
 
 .welcome-text{
