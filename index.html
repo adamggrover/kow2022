@@ -15,7 +15,9 @@
      <!--Link to AOS-->
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      <!-- Link to Slick-->
-     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+     <!-- Slick Links-->
 
 </head>
 
@@ -42,6 +44,27 @@
         </div>
         
     </div>
+
+    <!-- NEW HERO-->
+
+
+
+    <div class="home-hero-slider desktop-slider">
+        <div class="slide" id="slide-1">
+          <div class="slide-content">
+          <h3>Test Text</h3>
+          </div>
+        </div>
+        <div class="slide" id="slide-2"></div>
+        <div class="slide" id="slide-3"></div>
+      </div>
+      <div class="home-hero-slider mobile-slider">
+        <div class="slide" id="slide-1-mobile"></div>
+        <div class="slide" id="slide-2-mobile"></div>
+        <div class="slide" id="slide-3-mobile"></div>
+      </div>
+
+
     
     
     <main>
@@ -115,7 +138,9 @@
             </div>
 
 
+
         </section>
+
 
 
         <!--NEWS LINKS SECTION-->
@@ -156,6 +181,8 @@
                 
             </div>
         </section>
+
+
 
         <!--CALENDAR SECTION-->
         <section id="calendar-section" class="container">
@@ -246,7 +273,29 @@
     <script>
         AOS.init();
       </script>
+    <!-- jquery-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>   
+
+    <!-- Slick-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="slick-bg.js"></script>
+
+    <script>
+        
+        $(document).ready(function(){
+        $('.home-hero-slider').slick({
+            slidesToShow: 1,
+            dots: true,
+            infinite: true,
+            draggable:true,
+        });
+        });
+    </script>
     
+
+ 
+
 
 
 </body>

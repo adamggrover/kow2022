@@ -21,6 +21,10 @@ a{
     text-decoration: none;
 }
 
+
+
+
+
 /* FONTS */
 
 /* archivo-regular - latin */
@@ -180,6 +184,114 @@ nav{
   .hero-footer{
     text-align: center;
   }
+
+/* NEW HERO SECTION */
+
+
+
+.home-hero-slider.desktop-slider{
+    width:100vw;
+    height:100vh;
+  }
+  
+  .slick-prev.slick-arrow {
+      position: absolute;
+      top: 50%;
+      width: 50px;
+      left: 0;
+      z-index:100;
+  }
+  .slick-next.slick-arrow {
+      position: absolute;
+      top: 50%;
+      width: 50px;
+      right: 0;
+      z-index:100;
+  }
+  .slick-dots{
+    bottom:30px!important;
+    z-index:100;
+  }
+  
+  /*Desktop Slider*/
+  
+  .desktop-slider .slide{
+    height:35vw;
+    width:100%!important;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  #slide-1{
+    background-image:url('Assets/images/art-girls.jpg');
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    padding-left:30vw;
+    
+  }
+  .slide-content{
+    width:50%;
+    position:relative;
+    padding-top:15vw;
+    box-sizing:border-box;
+  }
+  
+  #slide-2{
+    background-color:green;
+  }
+  #slide-3{
+    background-color:yellow;
+  }
+  
+  /*Mobile Slider*/
+  .mobile-slider .slide{
+    height:70vw;
+    width:100%!important;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  .home-hero-slider.mobile-slider{
+    width:100%;
+    height:70vw;
+    display:none;
+  }
+  #slide-1-mobile{
+    background-image:url('https://dl.dropbox.com/s/mp2k34ztu9snfeg/Bird_Banner1.jpg');
+  }
+  #slide-2-mobile{
+    background-color:green;
+  }
+  #slide-3-mobile{
+    background-color:yellow;
+  }
+  
+  /*Media Queries*/
+  @media only screen and (min-width:501px){/* Large Screens - Over 500px width*/
+    .home-hero-slider.desktop-slider{
+      display:block;
+    }
+  }
+  
+  @media only screen and (max-width:500px){/* Small Screens - Under 500px width*/
+    .home-hero-slider.desktop-slider{
+      display:none;
+    }
+    .home-hero-slider.mobile-slider{
+    width:100%;
+    height:70vw;
+    display:block;
+  }
+  }
+  
+
 
 /* WELCOME SECTION */
 
