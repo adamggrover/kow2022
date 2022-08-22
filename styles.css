@@ -139,27 +139,12 @@ a{
 
 /* HERO SECTION */
 
-.hero-container{
-    /* background image */
-    background-image: url("Assets/images/boy-on-pc.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height:100vh;
-    width: 100vw;
-    
-    /* spread apart hero header and footer content */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex: 0 1 auto;
-    
+    background-color: #5B2A84;
     
 }
 
@@ -182,9 +167,22 @@ nav{
     justify-content: flex-end;
 }
 
-  .hero-footer{
-    text-align: center;
-  }
+.hero-wrapper{
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
+.carousel-inner{
+    max-height: 100vh;
+    
+  
+}
+
+.carousel-item{
+    object-fit: cover;
+    object-fit: top;
+    
+}
 
 /* NEW HERO SECTION */
 
