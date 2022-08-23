@@ -1,0 +1,30 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 0 1 auto;
+    background-color: #5B2A84;
+    
+}
+
+.header-icon{
+    color: white;
+}
+
+
+nav{
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+
+.social{
+    font-size: 2rem;    
+    display: flex;
+    gap: 3rem;
+    padding: 2rem;
+    justify-content: flex-end;
+}
+

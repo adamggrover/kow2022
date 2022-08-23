@@ -1,0 +1,149 @@
+@import "/styles/partials/globals.css";
+@import "/styles/partials/typography.css";
+@import "/styles/partials/effects.css";
+@import "/styles/partials/hero.css";
+@import "/styles/partials/header.css";
+
+@import "/styles/partials/footer.css";
+
+
+
+
+
+
+
+
+
+
+/* WELCOME SECTION */
+
+#welcome{
+
+    padding-top: 5rem;
+    
+}
+
+.welcome-text{
+    padding: 5rem;
+    background-color: #F5F5F5;
+}
+
+/* LINKS SECTION */
+
+#links{
+    
+    margin-top: 3rem;
+    padding: 0;
+}
+
+
+
+.img-div1{
+    background-image: url('Assets/images/hockey-church.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    height:100%;
+    width: 100%;
+}
+
+.mask{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.30));
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overlay{
+    
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #5B2A84;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+
+/* NEWS SECTION */
+
+
+.news-wrapper{
+   
+    padding-bottom: 2rem;
+    margin: 0 2rem;
+    
+}
+
+
+.section-headings{
+    text-align: center;
+    padding: 1.5rem 0 1rem 0;
+    
+}
+
+.section-link{
+    text-align: center;
+}
+
+.card-group{
+    gap:2rem;
+}
+
+
+
+.card-img-top{
+    height: 60%;
+    
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+/* CALENDAR SECTION */
+
+#calendar-section{
+    padding: 0 1rem;
+    margin-bottom: 7rem;
+    margin-top: 2rem;
+    
+}
+
+.calendar-card{
+    background-color: #5B2A84;
+    padding: 0 2rem;
+    max-width: fit-content;
+    min-height: 20rem;    
+    color: white;    
+    border-radius: 0;
+    border: #F5F5F5 solid 1rem;
+}
+
+.calendar-card:hover{
+    background-color: #BFD630 ;
+}
+
+.calendar-card-group{
+    gap: 2rem;
+    
+    
+}
+

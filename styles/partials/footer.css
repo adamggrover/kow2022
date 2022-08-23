@@ -1,0 +1,39 @@
+/* FOOTER SECTION */
+
+footer{
+    background-color: #231F20;
+    padding: 1rem 0 2rem 0;
+}
+
+.footer, a{
+    color: white;
+}
+
+.footer-column{
+    margin-top: 1rem;
+}
+
+.footer-text{
+    color: white;
+}
+
+.footer-spacer{
+    display: inline-block;
+    width: 0.7rem;
+}
+.footer-link{
+    display: block;
+    margin-bottom: 0.8rem;
+    
+}
+
+.wlt-white{
+    max-width: 100%;
+    height: auto;
+    margin-left: -1.5rem;
+    
+}
+
+.footer-icon{
+    margin-left: -2.9rem;
+}
