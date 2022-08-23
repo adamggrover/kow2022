@@ -6,15 +6,18 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     flex: 0 1 auto;
-    background-color: #5B2A84;
+    background: transparent;
+    position: absolute;
+    z-index: 1;
     
     
 }
 
 .logo{
   max-width: 270px;
+  min-width: 30vw;
   align-self: center;
-  flex: 0 1 auto;
+  flex: 1 0 auto;
   justify-self: center;
   
 }
