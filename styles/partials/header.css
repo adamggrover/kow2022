@@ -1,5 +1,6 @@
 
 
+
 header {
     display: flex;
     justify-content: space-between;
@@ -7,6 +8,15 @@ header {
     flex: 0 1 auto;
     background-color: #5B2A84;
     
+    
+}
+
+.logo{
+  max-width: 270px;
+  align-self: center;
+  flex: 0 1 auto;
+  justify-self: center;
+  
 }
 
 .header-icon{
@@ -15,16 +25,28 @@ header {
 
 
 nav{
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 1.5rem;
+
+ }
+
+.hamburger-col{
+    flex: 0 1 auto;
+    align-self: center;
+    padding-left: 1.5rem;
+  
 }
 
 
 .social{
-    font-size: 2rem;    
+    font-size: 1.2rem;    
     display: flex;
-    gap: 3rem;
-    padding: 2rem;
+    gap: 1.3rem;
+    padding-right: 1.5rem;
     justify-content: flex-end;
+    flex: 0 1 auto;
+    align-self: center;
+  
+  
+  
 }
-
