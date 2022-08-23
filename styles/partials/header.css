@@ -13,6 +13,8 @@ header {
     
 }
 
+
+
 .logo{
   max-width: 270px;
   min-width: 30vw;
@@ -24,18 +26,22 @@ header {
 
 .header-icon{
     color: white;
+    
 }
 
 
 nav{
     font-size: 1.5rem;
-    padding: 1.5rem;
+    
+    
+    
+    
 
  }
 
 .hamburger-col{
     flex: 0 1 auto;
-    align-self: center;
+    align-self: flex-start;
     padding-left: 1.5rem;
   
 }
@@ -44,11 +50,11 @@ nav{
 .social{
     font-size: 1.2rem;    
     display: flex;
-    gap: 1.3rem;
+    gap: 1.7rem;
     padding-right: 1.5rem;
     justify-content: flex-end;
     flex: 0 1 auto;
-    align-self: center;
+    align-self: flex-start;
   
   
   
