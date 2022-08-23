@@ -10,14 +10,14 @@
      <!--Font Awesome Link-->
      <script src="https://kit.fontawesome.com/c3ed52941f.js" crossorigin="anonymous"></script>
    
-     <!--Link to style sheet-->
-     <link rel="stylesheet" href="styles.css">
+   
      <!--Link to AOS-->
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      <!-- Link to Slick-->
-     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
-     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
-     <!-- Slick Links-->
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css">
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
+       <!--Link to style sheet-->
+       <link rel="stylesheet" href="styles2.css">
 
 </head>
 
@@ -45,7 +45,7 @@
         
     </div>
 
-    -->
+   
 
     <div class=" hero-wrapper container-fluid p-0">
 
@@ -78,7 +78,14 @@
         </div>
 
     </div>
-    
+     -->
+
+     
+<div class='slider'>
+    <div class='slide slide-1'></div>
+    <div class='slide slide-2'></div>
+    <div class='slide slide-3'></div>
+  </div>
 
     
     
@@ -289,23 +296,33 @@
         AOS.init();
       </script>
 
+      
+
       <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      
+      <!-- jquery-->
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   <!--Slick slider-->   
 
-        
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
+      
+    <script>
+
         $(document).ready(function(){
-        $('.home-hero-slider').slick({
-            
-            dots: false,
-            infinite: true,
-            speed: 100,
-            fade: true,
-            cssEase: 'linear'
-            
-            
-            
-        });
-        });
+
+    $('.slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    fade: true,
+    autoplaySpeed: 4000,
+    speed: 2000,
+    cssEase: 'ease-in-out',
+    dots: false,
+    arrows:true
+    });
+    });
     </script>
     
 

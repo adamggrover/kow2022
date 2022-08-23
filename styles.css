@@ -167,19 +167,9 @@ nav{
     justify-content: flex-end;
 }
 
-.hero-wrapper{
-    max-height: 100vh;
-    
-}
 
-.carousel-item{
-    
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-   
-    
-}
+
+
 
 
 
@@ -189,93 +179,38 @@ nav{
 
 
 
-.home-hero-slider.desktop-slider{
-    width:100%;
-    height:100vw;
-    
-    
-  }
+
   
   
-  /*Desktop Slider*/
+  /*HERO Slider*/
   
-  .desktop-slider .slide{
+  .slide {
+    width:100vw;
     height:100vh;
-    
-    width:100%!important;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:top;
-  }
-  #slide-1{
-    background-image:url('Assets/images/sixth-formers.jpg');
-    display:flex;
-    align-items:flex-start;
-    justify-content:center;
-    
-    box-sizing:border-box;
-  }
-  .slide-content{
-    width:100%;
-    height: auto;
-    position:relative;
-    
-    
-  }
-  
-  #slide-2{
-    background-color:green;
-  }
-  #slide-3{
-    background-color:yellow;
-  }
-  
-  /*Mobile Slider*/
-  .mobile-slider .slide{
-    height:100vh;
-    width:100%!important;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center;
-  }
-  .home-hero-slider.mobile-slider{
-    width:100%;
-    height:70vw;
-    display:none;
-  }
-  #slide-1-mobile{
-    background-color: blue;
-  }
-  #slide-2-mobile{
-    background-color:green;
-  }
-  #slide-3-mobile{
-    background-color:yellow;
-  }
-  
-  /*Media Queries*/
-  @media only screen and (min-width:501px){/* Large Screens - Over 500px width*/
-    .home-hero-slider.desktop-slider{
-      display:block;
+    /*background:#CCC;*/
     }
-  }
-  
-  @media only screen and (max-width:500px){/* Small Screens - Under 500px width*/
-    .home-hero-slider.desktop-slider{
-      display:none;
+    
+    .slider{
+      height: 100vh;
+      width: 100vw;
     }
-    .home-hero-slider.mobile-slider{
-    width:100%;
-    height:70vw;
-    display:block;
-  }
-  }
+    
+    .slide-2 {
+    /*background:#EEE;*/
+    }
+    .slide-1 {
+    background:url(https://kruxor.com/images/pexels-photo-4389409.jpeg) center no-repeat;
+    background-size:cover;
+    }
+    .slide-2 {
+    background:url(https://kruxor.com/images/server-rack.jpg) center no-repeat;
+    background-size:cover;
+    }
+    .slide-3 {
+    background:url(https://kruxor.com/images/pexels-photo-709552.jpg) center no-repeat;
+    background-size:cover;
+    }
+    
   
 
 
