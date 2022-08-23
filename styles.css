@@ -199,15 +199,15 @@ nav{
     /*background:#EEE;*/
     }
     .slide-1 {
-    background:url(https://kruxor.com/images/pexels-photo-4389409.jpeg) center no-repeat;
+    background:url(/Assets/images/boy-on-pc.jpg) center no-repeat;
     background-size:cover;
     }
     .slide-2 {
-    background:url(https://kruxor.com/images/server-rack.jpg) center no-repeat;
+    background:url(/Assets/images/art-girls.jpg) center no-repeat;
     background-size:cover;
     }
     .slide-3 {
-    background:url(https://kruxor.com/images/pexels-photo-709552.jpg) center no-repeat;
+    background:url(/Assets/images/3d-printer.jpg) center no-repeat;
     background-size:cover;
     }
     
