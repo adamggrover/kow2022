@@ -13,88 +13,22 @@
 
 /* LINKS SECTION */
 
-#links{
-    
-    margin-top: 3rem;
-    padding: 0;
-}
-
-/*
-
-.img-div1{
-    /*background-image: url('Assets/images/hockey-church.jpg');*/
-    /*
-    background-color: red;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
-    height:100%;
-    width: 100%;
-}
-
-.mask{
+.link-img{
     position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.30));
-    color: white;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-direction: column;
-    z-index: 1;
-
+    z-index: -1;
 }
 
 .overlay{
-    
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: #5B2A84;
-    color: white;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-direction: column;
-    z-index: 1;
-    position: absolute;
-    
-    
-}
-
-/*
-
-*/
-
-.img-container{
-    background: url("/Assets/images/hockey-church.jpg") no-repeat center / cover;
-    height: auto;
-    width: 100%;
     position: relative;
+    background-color: aqua;
     
-
-    
 }
 
-.link-caption{
-    position: absolute;
-    bottom: -0.5rem;
-}
 
-.img-div1{
-    position: relative;
-}
 
-.overlay{
-    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.90));
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-}
+
+
+
+
+
+
