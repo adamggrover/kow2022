@@ -89,6 +89,10 @@ html, body{
       object-position: center;
   }
 
+  .news-row{
+    height: fit-content;
+  }
+
 
 /* CALENDAR SECTION */
 
