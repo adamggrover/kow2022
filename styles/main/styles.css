@@ -67,9 +67,7 @@ html, body{
     width:90%;
     margin:0px auto;
   }
-  .slick-slide{
-    margin:10px;
-  }
+
   .slick-slide img{
     width:100%;
   }
@@ -79,13 +77,18 @@ html, body{
     border-color: transparent;
   }
   
-  .card-img-top{
-      height: 60%;
+  .card-top{
+      height: 15rem; 
+      width: 100%;
       
-      object-fit: cover;
+      
+  }
+
+  .card-img-top{
+    object-fit: cover;
       object-position: center;
   }
-  
+
 
 /* CALENDAR SECTION */
 
