@@ -56,6 +56,9 @@ nav{
     flex: 0 1 auto;
     align-self: flex-start;
   
-  
-  
+}
+
+.social-links{
+    display: flex;
+    
 }
