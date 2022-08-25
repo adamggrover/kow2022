@@ -64,9 +64,7 @@
 
     /* Bell Animation */
 
-    body{
-        background-color:#eee;
-    }
+
     .ringing-bell{
         position:absolute;
         left:50%;

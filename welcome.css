@@ -4,6 +4,7 @@
 
     padding-top: 5rem;
     
+    
 }
 
 .welcome-text{
@@ -11,23 +12,8 @@
     background-color: #F5F5F5;
 }
 
-
-
-/* LINKS SECTION 
-
-.link-img{
-    position: absolute;
-    z-index: -1;
-    padding: 2rem;
+.welcome-row{
+    margin-top: 5rem;
 }
-
-.overlay{
-    position: relative;
-    background-color: aqua;
-    
-    
-}
-
-*/
 
 
