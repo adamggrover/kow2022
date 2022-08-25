@@ -30,22 +30,19 @@ header {
 }
 
 
-nav{
-    font-size: 1.5rem;
-    
-    
-    
-    
 
- }
 
 .hamburger-col{
     flex: 0 1 auto;
-    align-self: flex-start;
-    padding-left: 1.5rem;
+    
+    font-size: 2rem;
+    
   
 }
 
+.hamburger{
+    margin-left: .5rem;
+}
 
 .social{
     font-size: 1.2rem;    
@@ -60,5 +57,12 @@ nav{
 
 .social-links{
     display: flex;
+
+}
+
+.nav-box{
+    display: flex;
+    justify-content: flex-start;
+    
     
 }
