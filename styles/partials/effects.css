@@ -67,8 +67,9 @@
 
     .ringing-bell{
         position:absolute;
-        left:50%;
-        top:50%;
+        align-self: center;
+        justify-self: center;
+        
         transition:translate(-50%,-50%);
     }
     

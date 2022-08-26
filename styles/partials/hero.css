@@ -75,25 +75,31 @@
     }
 
     .bell-background{
-      height: 4rem;
-      width: 4rem;
-     
+      height: 2.5rem;
+      width: 2.5rem;
+      border-radius: 25rem;
+      background-color: #5B2A84;
+      text-align: center;
       display: flex;
+      border: 1px solid white;
+     
       justify-content: center;
       align-content: center;
       position: absolute;
-      right: 1rem;
-      bottom: .5rem;
+      right: 1.5rem;
+      bottom: 1.5rem;
       
     }
     
  
     .ringing-bell{
-      color: white;
+      position:absolute;
       align-self: center;
       justify-self: center;
+      color: white;
       
-    }
+      transition:translate(-50%,-50%);
+  }
 
 .hero-arrow{
   
