@@ -65,13 +65,7 @@
     /* Bell Animation */
 
 
-    .ringing-bell{
-        position:absolute;
-        align-self: center;
-        justify-self: center;
-        
-        transition:translate(-50%,-50%);
-    }
+
     
     
     .faa-ring{
