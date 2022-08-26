@@ -27,37 +27,6 @@
 
 /* New welcome section */
 
-.welcome-left-background{
+.welcome-background{
     background-color: red;
-    padding: 15rem;
-    
-    
-}
-
-
-
-    
-
-
-.new-welcome-row{
-    height: 500px;
-}
-
-.welcome-img-container{
-    position: relative;
- 
-}
-
-
-
-/* New New */
-
-.left-background-welcome{
-    width: 90%;
-    
-}
-
-.left-welcome-content{
-    
-    
 }
