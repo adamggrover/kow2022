@@ -28,5 +28,5 @@
 /* New welcome section */
 
 .welcome-background{
-    background-color: red;
+    position: relative;
 }
