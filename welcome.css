@@ -1,28 +1,33 @@
 /* WELCOME SECTION */
-
-#welcome{
-
-    padding-top: 5rem;
-    
-    
+#welcome {
+  padding-top: 5rem;
 }
 
-.welcome-text{
-    padding: 5rem;
-    background-color: #F5F5F5;
+.welcome-text {
+  padding: 5rem;
+  background-color: #F5F5F5;
 }
 
-.welcome-row{
-    margin-top: 5rem;
+.welcome-row {
+  margin-top: 5rem;
 }
 
-
-.welcome-links{
-    margin: 5rem;
+.welcome-links {
+  margin: 5rem;
 }
 
 /* New welcome section */
 
-.welcome-background{
-    position: relative;
+.links-row{
+  height: 100px;
+  display: flex;
 }
+
+.img-link-container{
+  background-color: blueviolet;
+}
+
+.link-image{
+  position: relative;
+}
+

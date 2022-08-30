@@ -173,36 +173,23 @@
 <!-- New welcome section-->
     <section id="welcome">
 
-        <div class="welcome-background pt-4 pb-4" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" style="
-         
-            
-            background: linear-gradient(
-    to right, 
-    rgba(247, 247, 247, 0.933),
-    rgba(247, 247, 247, 0.933) 18%,
-    white 18%,
-    white 60%,
-    rgba(247, 247, 247, 0.933) 60%,
-    rgba(247, 247, 247, 0.933) 75%,
-    rgba(247, 247, 247, 0.933))
-          
-          ">
+        <div class="welcome-background pt-4 pb-4">
 
             <div class="container">
 
                 <div class="row p-5">
 
-                    <div class="col-6 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="1200" >
-                        <div class="left-welcome-content col-9 p-4">
-                                <h3 CLASS="h2 ">WELCOME</h3>
+                    <div class="col-6 d-flex align-items-center" data-aos="fade-up" data-aos-delay="1200" >
+                        <div class="left-welcome-content col-10 p-0">
+                                <h3 CLASS="h2">WELCOME</h3>
                             <h4 class="mt-2">TO KINGS OF WESSEX ACADEMY</h4>
                             <p class="mt-4 mb-4">"We are delighted that you wish to find out about our school – a place that we consider to be a fantastic community to work and to learn. By ensuring your child’s happiness remains our first priority, we know they will go onto achieve their full potential here with us."</p>
                             <a href="" class="">READ MORE</a>
                         </div>
                     </div>   
-                    <div class="welcome-right-background col-6" data-aos="fade-left" data-aos-delay="2300">
+                    <div class="welcome-right-background col-6">
                         
-                        <div class="welcome-img-container p-0" data-aos="fade-up" data-aos-delay="300">
+                        <div class="welcome-img-container pe-5" data-aos="fade-up" data-aos-delay="1600">
                             <img src="Assets/images/teacher-and-kids.jpg" alt="Teacher explaining something to two children" class="img-fluid welcome-img">
                         </div>
                         
@@ -223,19 +210,23 @@
 
         <div class="container">
 
-            <div class="welcome-links row mt-5 p-5" data-aos="fade-left" data-aos-delay="1200" data-aos-duration="2000     
-          ">
+            <div class="welcome-links row mt-5 p-5">
                           
                 
                 <div class="welcome-img-div">
                     
-                    <div class="img-container img-fluid p-2" data-aos="fade-up" data-aos-delay="2100">
+                    <div class="img-container img-fluid p-2" data-aos="fade-up" data-aos-delay="2500">
+                        <div class="link-overlay img-fluid">
 
-                         <img src="/Assets/images/hockey-church.jpg" class="img-fluid link-img"> 
+                            <img src="/Assets/images/hockey-church.jpg" class="img-fluid link-img"> 
+                        </div>
                         
                     </div>
-                                   
+                                
                 </div>
+            
+
+
                 <div class="welcome-img-div">
                     <div class="img-container img-fluid p-2" data-aos="fade-up" data-aos-delay="2200">
                     
@@ -278,9 +269,39 @@
 
 
               
-              
+
+        <!-- New links section-->
+
+        <div class="links-row row">
+            <div class="img-link-container col-sm-3">
+                <img src="/Assets/images/art-girls.jpg" alt="" class="img-fluid link-image">
+                <div class="img-link-text">Hello</div>
+            </div>
+
+            <div class="img-link-container col-sm-3">
+                <img src="/Assets/images/art-girls.jpg" alt="" class="img-fluid">
+                <div class="img-link-text"></div>
+            </div>
+
+            <div class="img-link-container col-sm-3">
+                <img src="/Assets/images/art-girls.jpg" alt="" class="img-fluid">
+                <div class="img-link-text"></div>
+            </div>
+
+            <div class="img-link-container col-sm-3">
+                <img src="/Assets/images/art-girls.jpg" alt="" class="img-fluid">
+                <div class="img-link-text"></div>
+            </div>
+
+
+
+
+
+        </div>
               
       </section>
+
+
 
 
 
@@ -302,7 +323,7 @@
         
 
                 <div class="col-md-3 p-3">
-                    <div class="card shadow ">
+                    <div class="card shadow">
                         
                             <img src="Assets/images/3d-printer.jpg" class="card-img-top" alt="...">
                         
@@ -616,7 +637,9 @@ $('.new-news-carousel').slick({
 
   
     </script>
-    
+    <script>$(".hover").mouseleave(function() {
+        $(this).removeClass("hover");
+     });</script>
    
 
 
