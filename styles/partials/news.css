@@ -1,0 +1,15 @@
+.card-top{
+    height: 15rem; 
+    width: 100%;
+    
+    
+}
+
+.card-img-top{
+  object-fit: cover;
+    object-position: center;
+}
+
+.news-row{
+  height: fit-content;
+}
