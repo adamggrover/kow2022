@@ -93,6 +93,9 @@ html, body{
     height: fit-content;
   }
 
+  .card-body a{
+    color: black;
+  }
 
 /* CALENDAR SECTION */
 
