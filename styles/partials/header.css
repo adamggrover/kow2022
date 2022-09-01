@@ -18,8 +18,7 @@ header {
 
 
 .logo{
-  max-width: 270px;
-  min-width: 30vw;
+  max-width: 23rem;
   align-self: center;
   flex: 1 0 auto;
   justify-self: center;
