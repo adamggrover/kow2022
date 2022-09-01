@@ -9,6 +9,10 @@ footer a{
     color: white;
 }
 
+footer a:hover{
+    color: #BFD630;
+}
+
 .footer-column{
     margin-top: 1rem;
 }
