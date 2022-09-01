@@ -24,10 +24,16 @@ header {
   
 }
 
-.header-icon{
+.header-icon, header a{
     color: white;
     
 }
+
+.header-icon:hover, header a:hover{
+    color: #BFD630;
+    
+}
+
 
 
 
