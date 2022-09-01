@@ -50,8 +50,8 @@
 
     .announcement-wrapper{
       position: absolute;
-      bottom: 3rem;
-      right: 2rem;  
+      bottom: 2rem;
+      right: 0rem;  
 
     }
 
@@ -61,7 +61,7 @@
       padding: 1rem;
       display: flex;
       flex-direction: column;
-      border-radius: 0 4rem 1rem 0;
+      
       text-align: left;
       color: white;
       flex: 1 1 auto;      
@@ -69,6 +69,7 @@
        
       
     }
+
 
     .hero-wrapper{
       position: relative;
@@ -87,7 +88,7 @@
       align-content: center;
       position: absolute;
       right: 1.5rem;
-      bottom: 1.5rem;
+      bottom: 3.5rem;
       
     }
     

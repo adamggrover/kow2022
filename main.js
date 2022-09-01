@@ -1,3 +1,15 @@
+//Announcement Box
+
+function announcementClose() {
+    var x = document.getElementById("announcement-wrapper");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+
 //news card section effects
 
 //news card 1
