@@ -50,8 +50,8 @@
 
     .announcement-wrapper{
       position: absolute;
-      bottom: 2rem;
-      right: 0rem;  
+      bottom: 4rem;
+      right: 1rem;  
 
     }
 
@@ -73,6 +73,7 @@
 
     .hero-wrapper{
       position: relative;
+      height: 100vh;
     }
 
     .bell-background{
@@ -87,8 +88,8 @@
       justify-content: center;
       align-content: center;
       position: absolute;
-      right: 1.5rem;
-      bottom: 3.5rem;
+      right: 2.5rem;
+      bottom: 5.4rem;
       
     }
     
@@ -117,4 +118,5 @@
   color: white;
 }
   
+
   
