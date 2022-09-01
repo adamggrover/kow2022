@@ -6,8 +6,8 @@
 @import "/styles/partials/welcome.css";
 
 @import "/styles/partials/footer.css";
-@import "news.css";
-@import "calendar.css"
+@import "/styles/partials/news.css";
+@import "/styles/partials/calendar.css";
 
 
 
