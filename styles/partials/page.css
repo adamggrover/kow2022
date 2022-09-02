@@ -8,7 +8,10 @@
     display: flex;
     align-items: center;
     
-    
+}
+
+.content-header-breadcrumb-links{
+    color: #BFD630; 
 }
 .breadcrumb-spacer{
     width: 0.5rem;
