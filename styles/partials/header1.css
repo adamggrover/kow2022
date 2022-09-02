@@ -1,7 +1,7 @@
 
 
 
-#header {
+.header1 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -22,13 +22,6 @@
   
 }
 
-.logo2{
-    max-width: 23rem;
-    align-self: center;
-    flex: 1 0 auto;
-    justify-self: center;
-    
-  }
 
 .header-icon, header a{
     color: white;
