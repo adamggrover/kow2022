@@ -1,4 +1,20 @@
 #main-page-area{
     min-height: 80rem;
     background-color: white;
+    padding-top: 9rem;
+}
+
+.content-header-breadcrumb{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.breadcrumb-spacer{
+    width: 0.5rem;
+}
+
+.content-header-social{
+    display: flex;
+
 }
