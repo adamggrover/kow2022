@@ -1,9 +1,7 @@
 // Header change on scroll
 window.onscroll = function() {
     headerBackground()
-    logoShrink()
-
-};
+    };
 
 // When the user scrolls down 50px from the top of the document, change the header's background color
 
