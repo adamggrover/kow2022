@@ -1,0 +1,80 @@
+
+
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 0 1 auto;    
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    transition: 0.1s;   
+}
+
+
+
+.logo1{
+  max-width: 23rem;
+  align-self: center;
+  flex: 1 0 auto;
+  justify-self: center;
+  
+}
+
+.logo2{
+    max-width: 23rem;
+    align-self: center;
+    flex: 1 0 auto;
+    justify-self: center;
+    
+  }
+
+.header-icon, header a{
+    color: white;
+    
+}
+
+.header-icon:hover, header a:hover{
+    color: #BFD630;
+    
+}
+
+
+
+
+
+.hamburger-col{
+    flex: 0 1 auto;
+    
+    font-size: 2rem;
+    
+  
+}
+
+.hamburger{
+    margin-left: .5rem;
+}
+
+.social{
+    font-size: 1.2rem;    
+    display: flex;
+    gap: 1.7rem;
+    padding-right: 1.5rem;
+    justify-content: flex-end;
+    flex: 0 1 auto;
+    align-self: flex-start;
+  
+}
+
+.social-links{
+    display: flex;
+
+}
+
+.nav-box{
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
