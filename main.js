@@ -1,7 +1,11 @@
 // Header change on scroll
-window.onscroll = function() {
-    headerBackground()
-    };
+
+if ( document.URL.includes("index") ) {
+    window.onscroll = function() {
+        headerBackground()
+        };
+}
+
 
 // When the user scrolls down 50px from the top of the document, change the header's background color
 
