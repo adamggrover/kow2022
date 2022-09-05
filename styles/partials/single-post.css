@@ -1,4 +1,6 @@
 .post-content-column{
+
+    margin-bottom: 10rem;
     
 }
 
@@ -11,4 +13,17 @@
     align-content: center;
     max-width: 55rem;
     
+}
+
+#post-image-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+#post-image{
+    max-height: 30rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
 }
