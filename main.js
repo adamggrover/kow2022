@@ -34,12 +34,7 @@ function announcementClose() {
     }
   }
 
-  function announcementReveal() {
-    var x = document.getElementById("announcement-wrapper");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } 
-  }
+
 
 
 //news card section effects
