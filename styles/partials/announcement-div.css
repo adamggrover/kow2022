@@ -1,0 +1,14 @@
+#announcement-section{
+    display: none;
+    background-color: #5B2A84;
+    color: white;
+    position: relative;
+}
+
+.announcement-div-container-box{
+    width: 100%;
+}
+
+announcement-div-content{
+    width: 100%;
+}
