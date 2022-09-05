@@ -28,6 +28,14 @@
 
 }
 
+@media screen and (max-width: 992px){
+    .content-header-social{
+        display: flex;
+        justify-content: start;
+        
+  }
+}
+
 #content-h1{
     color: #3A006B;
     margin-top: 3rem;
