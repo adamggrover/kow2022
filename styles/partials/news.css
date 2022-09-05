@@ -13,3 +13,7 @@
 .news-row{
   height: fit-content;
 }
+
+.card-body{
+  min-height: 11rem;
+}
