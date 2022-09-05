@@ -1,7 +1,7 @@
 #main-page-area{
     min-height: 80rem;
     background-color: white;
-    padding-top: 8rem;
+    padding-top: 6rem;
     max-width: 70rem;
 }
 
@@ -30,7 +30,7 @@
 
 #content-h1{
     color: #3A006B;
-    margin-top: 1rem;
+    margin-top: 3rem;
     font-weight: 700;
     font-size: 48px;
 }
@@ -47,7 +47,7 @@
 }
 
 #content-body{
-    margin-top: 3rem;
+    margin-top: 2rem;
     
 
 }
