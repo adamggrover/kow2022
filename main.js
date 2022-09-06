@@ -152,5 +152,5 @@ function linkColorFunctionRThree(){
     document.getElementById("news-card-body3").style.color = 'black';
 }
 
-// Slick Slider Carousels
+
 
