@@ -101,7 +101,7 @@
                 </div>
                 
             </div>
-            <button onclick="announcementReveal(); fadeIn();" id="bell-button">
+            <button onclick="announcementReveal();" id="bell-button">
             <div class="bell-background">                      
                 
                 <i class='fa fa-bell faa-ring animated fa-md ringing-bell'></i>
@@ -124,7 +124,7 @@
 <div id="announcement-section" class="container-fluid pt-5 ps-5">
     <div class="announcement-div-container-box"></div>
     <h2>Announcements</h2>
-        <div class="announcement-slider animate__animated animate__fadeIn animate__slower animate__delay-1s" id="announcement-slider-div">
+        <div class="announcement-div-slider animate__animated animate__fadeIn animate__slower animate__delay-1s" id="announcement-slider-div">
             <div class="announcement-div-content">
                 <p class="pt-3 pb-5">The school will be closed on April 1st</p>
                 <a class="pt-3" href="https://google.com">Read More</a>  
@@ -774,7 +774,14 @@
   $('.announcement-slider').slick({
     autoplay: true,
     arrows: false,
-    autoplaySpeed: 4000
+    autoplaySpeed: 6000
+   
+  });
+
+  $('.announcement-div-slider').slick({
+    autoplay: true,
+    arrows: false,
+    autoplaySpeed: 6000
    
   });
 
