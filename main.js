@@ -57,17 +57,6 @@ function announcementClose() {
     }
   }
 
-  // Announcement Reveal function
-
-  function announcementReveal(){
-    var x = document.getElementById("announcement-section");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-
-  }
 
 
 
@@ -162,3 +151,6 @@ function zIndexFuctionRThree(){
 function linkColorFunctionRThree(){
     document.getElementById("news-card-body3").style.color = 'black';
 }
+
+// Slick Slider Carousels
+
