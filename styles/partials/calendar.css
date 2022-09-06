@@ -1,9 +1,10 @@
 /* CALENDAR SECTION */
 
 #calendar-section{
-    padding: 0 1rem;
-    margin-bottom: 7rem;
-    margin-top: 2rem;
+    
+    padding-bottom: 7rem;
+    padding-top: 5rem;
+    background-color: #F5F5F5;
     
 }
 
@@ -23,6 +24,7 @@
 
 .calendar-card-group{
     gap: 2rem;
+    margin-top: 4rem;
     
     
 }
