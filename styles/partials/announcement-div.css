@@ -8,6 +8,8 @@
     width: 100%;
 }
 
-announcement-div-content{
-    width: 100%;
+
+.announcement-div-content a{
+    color: white;
+
 }
