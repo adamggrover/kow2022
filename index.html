@@ -101,12 +101,19 @@
                 </div>
                 
             </div>
-            <button onclick="announcementReveal();" id="bell-button">
+            <a id="bell-button" class="bell-button-mobile d-lg-none" href="#announcement-section" >
             <div class="bell-background">                      
                 
                 <i class='fa fa-bell faa-ring animated fa-md ringing-bell'></i>
             </div>
-            </button>
+            </a>
+
+            <a id="bell-button" class="bell-button-desktop d-none d-lg-block" href="https://google.com" >
+                <div class="bell-background">                      
+                    
+                    <i class='fa fa-bell faa-ring animated fa-md ringing-bell'></i>
+                </div>
+            </a>
 
      </div>
 
@@ -120,24 +127,28 @@
 
 
 </div>
+<div id="anchor"></div>
+<section id="announcement-section">
 
-<div id="announcement-section" class="container-fluid pt-5 ps-5 d-lg-none">
-    <div class="announcement-div-container-box"></div>
-    <h2>Announcements</h2>
-        <div class="announcement-div-slider animate__animated animate__fadeIn animate__slower animate__delay-1s" id="announcement-slider-div">
-            <div class="announcement-div-content">
-                <p class="announcement-preview">The school will be closed on April 1st</p>
-                <a class="announcement-link" href="https://google.com">Read More</a>  
-            </div> 
+    <div class="container-fluid pt-5 ps-5 d-lg-none" id="announcement-area">
+        <div class="announcement-div-container-box"></div>
+        <h2>Announcements</h2>
+            <div class="announcement-div-slider animate__animated animate__fadeIn animate__slower animate__delay-1s" id="announcement-slider-div">
+                <div class="announcement-div-content">
+                    <p class="announcement-preview">The school will be closed on April 1st</p>
+                    <a class="announcement-link" href="https://google.com">Read More</a>  
+                </div> 
 
-            <div class="announcement-div-content">
-                <p class="announcement-preview">Kings is the best!</p>
-                <a class="announcement-link" href="https://google.com">Read More</a>  
-            </div> 
-                
+                <div class="announcement-div-content">
+                    <p class="announcement-preview">Kings is the best!</p>
+                    <a class="announcement-link" href="https://google.com">Read More</a>  
+                </div> 
+                    
+            </div>
         </div>
     </div>
-</div>
+
+</section>
     
     
     <main>
