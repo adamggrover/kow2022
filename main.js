@@ -24,6 +24,7 @@ function headerBackground() {
 function logoChange(){
     var logo = $(".logo1"); $(window).scroll(function() {
     var scroll = $(window).scrollTop();
+    
 
     
     if (scroll >= 50) {
@@ -40,24 +41,7 @@ function logoChange(){
     });
 };
 
-$(function() { 
-    var logo = $(".logo1"); $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    
-        if (scroll >= 500) {
-          if(!logo.hasClass("logo2")) {
-            logo.hide();
-            logo.removeClass('logo1').addClass("logo2").fadeIn( "slow");
-          }
-        } else {
-          if(!logo.hasClass("logo1")) {
-            logo.hide();
-            logo.removeClass("logo2").addClass('logo1').fadeIn( "slow");
-          }
-        }
-    
-    });
-    });
+
 
   
 
