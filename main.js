@@ -65,7 +65,7 @@ $(function() {
 
 function announcementClose() {
     var x = document.getElementById("announcement-wrapper");
-    addClass()
+    
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
@@ -84,13 +84,6 @@ function announcementClose() {
     }
 
   }
-
-  //fade in animation
-
-  const announcementSliderDiv = document.getElementById('announcement-slider-div');
-
-  announcementSliderDiv.classList.add('animate__animated', 'animate__bounce');
-
 
 
 
