@@ -8,6 +8,7 @@
 
 .card{
   border-radius: 0;
+  border: #F5F5F5 solid 1rem;
 }
 
 .card-top{
