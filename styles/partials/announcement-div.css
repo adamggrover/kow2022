@@ -1,12 +1,13 @@
-#announcement-section{
+#announcement-area{
     background-color: #5B2A84;
     color: white;
     position: relative;
     padding-bottom: 2rem;
+    
 }
 
 .announcement-div-container-box{
-    width: 100%;
+    padding-top: 4rem;
 }
 
 
