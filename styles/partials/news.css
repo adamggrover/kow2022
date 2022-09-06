@@ -6,6 +6,10 @@
 
 }
 
+.card{
+  border-radius: 0;
+}
+
 .card-top{
     height: 15rem; 
     width: 100%;
@@ -16,6 +20,7 @@
 .card-img-top{
   object-fit: cover;
     object-position: center;
+    border-radius: 0;
 }
 
 .news-row{
