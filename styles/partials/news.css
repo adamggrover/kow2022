@@ -31,3 +31,8 @@
 .card-body{
   min-height: 11rem;
 }
+
+.card-body{
+  pointer-events: none;
+}
+
