@@ -30,18 +30,18 @@
       height: 100%;
       z-index:1;
     }
+
+
+
     .slide-2 {
-    /*background:#EEE;*/
-    }
-    .slide-1 {
     background:url(/Assets/images/hockey-church.jpg) center no-repeat;
     background-size:cover;
     }
-    .slide-2 {
+    .slide-3 {
     background:url(/Assets/images/3d-printer.jpg) center no-repeat;
     background-size:cover;
     }
-    .slide-3 {
+    .slide-4 {
     background:url(/Assets/images/boy-on-pc.jpg) center no-repeat;
     background-size:cover;
     }
@@ -50,7 +50,7 @@
 
     .announcement-wrapper{
       position: absolute;
-      bottom: 4rem;
+      bottom: 2.5rem;
       right: 1rem;  
 
     }
@@ -101,7 +101,7 @@
       align-content: center;
       position: absolute;
       right: 2.5rem;
-      bottom: 5.4rem;
+      bottom: 4rem;
       
     }
     
@@ -115,13 +115,19 @@
       transition:translate(-50%,-50%);
   }
 
-.hero-arrow{
+.hero-arrow-container{
   
   position: absolute;
   bottom: 1.2rem;
+  width: 100%;
 }
 
-
+.hero-banner-text-container{
+  
+  position: absolute;
+  bottom: 4.5rem;
+  width: 100%;
+}
   
 
   
