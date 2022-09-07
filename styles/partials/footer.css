@@ -32,14 +32,16 @@ footer a:hover{
 }
 
 .wlt-white{
-    max-width: 100%;
+    max-width: 20rem;
     height: auto;
-    margin-left: -1.5rem;
+    margin-left: -1.3rem;
+    padding-top: 3rem;
     
 }
 
 .footer-icon{
     margin-left: -1.7rem;
     max-width: 7rem;
+    
     
 }
