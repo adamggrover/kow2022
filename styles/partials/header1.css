@@ -72,6 +72,10 @@
 
 }
 
+.social-links:target{
+    text-decoration: none;
+}
+
 .nav-box{
     display: flex;
     justify-content: flex-start;
