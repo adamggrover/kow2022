@@ -34,15 +34,15 @@
 
 
     .slide-2 {
-    background:url(/Assets/images/hockey-church.jpg) center no-repeat;
+    background:url(../../Assets/images/hockey-church.jpg) center no-repeat;
     background-size:cover;
     }
     .slide-3 {
-    background:url(/Assets/images/3d-printer.jpg) center no-repeat;
+    background:url(../../Assets/images/3d-printer.jpg) center no-repeat;
     background-size:cover;
     }
     .slide-4 {
-    background:url(/Assets/images/boy-on-pc.jpg) center no-repeat;
+    background:url(../../Assets/images/boy-on-pc.jpg) center no-repeat;
     background-size:cover;
     }
 
