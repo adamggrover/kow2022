@@ -109,8 +109,15 @@
 
 .search-input-box{
     padding-top: 0.6rem;
+    padding-bottom: 0.2rem;
    
 }
+
+#site-search{
+    padding-bottom: 0.4rem;
+}
+
+
 
 #header {
     transition: margin-top .5s;
