@@ -41,8 +41,22 @@ function logoChange(){
     });
 };
 
+//Search Bar
 
 
+
+  /* Set the height of the side navigation to 250px and the left margin of the page content to 250px */
+function openSearch() {
+    document.getElementById("header-search-container").style.height = "3rem";
+    document.getElementById("header-container").style.marginTop = "3rem";
+  }
+  
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+  function closeSearch() {
+    document.getElementById("header-search-container").style.height = "0";
+    document.getElementById("header-container").style.marginTop = "0";
+  }
+  
   
 
 //Announcement Box

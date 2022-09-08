@@ -93,9 +93,29 @@
 #header-search-container{
     width: 100%;
     background-color: #BFD630;
-    padding-top: .75rem;
-    padding-bottom: .75rem;
+    padding: 0;
+
+    height: 0; /*  change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    
+    overflow-y: hidden; /* Disable horizontal scroll */
+    
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
 }
+
+.search-input-box{
+    padding-top: 0.6rem;
+   
+}
+
+#header {
+    transition: margin-top .5s;
+    padding: 20px;
+  }
 
 #site-search{
     background-color: transparent;
