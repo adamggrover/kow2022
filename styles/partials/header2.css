@@ -1,3 +1,11 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 0 1 auto;    
+    
+}
+
 .header2 {
      
     position: sticky;
