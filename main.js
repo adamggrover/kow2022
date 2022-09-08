@@ -56,8 +56,7 @@ function openSearch() {
     document.getElementById("header-search-container").style.height = "0";
     document.getElementById("header-container").style.marginTop = "0";
   }
-  
-  
+
 
 // Sidenav
 
@@ -65,13 +64,30 @@ function openSearch() {
 function openNav() {
     document.getElementById("sidebar-nav").style.width = "22rem";
     document.getElementById("main").style.marginLeft = "22rem";
-  }
+    document.body.style.backgroundColor = "rgba(0,0,0,0.8)";
+    window.onscroll = () => { window.scroll(0, 0); };
+    
+
+}
+
+ 
+        
+    
+  
   
   /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
   function closeNav() {
     document.getElementById("sidebar-nav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
+    document.body.style.backgroundColor = "white";
+    
+    
   }
+
+  
+
+
+
 
 //Announcement Box
 

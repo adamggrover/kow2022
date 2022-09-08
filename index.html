@@ -27,19 +27,29 @@
 </head>
 
 <body>
+    
 
     <div id="sidebar-nav" class="sidenav">
+
+        <div class="row">
+            <div class="col-12 p-5">
         
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-      </div>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+
+            </div>
+
+        </div>
+    </div>
+
+    
 
 <main>
     
-<div class="hero-wrapper">
+<div class="hero-wrapper" id="hero-wrapper">
      <header id="header" class="header1 row container-fluid p-0 m-0 ">
         <div class="container-fluid" id="header-search-container">
             <div class="container d-flex align-items-center search-input-box justify-content-between">
@@ -55,9 +65,9 @@
         </div>
 
         <div class="header-container" id="header-container">
-            <div class="col-3 hamburger-col pt-4 text-left">
+            <div class="col-3 hamburger-col pt-0 text-left">
                 <div class="nav-box pt-3">
-                    <button onclick="openNav()"><i class="fa-solid fa-bars fa-xl header-icon hamburger"></i></button> 
+                    <button onclick="openNav();"><i class="fa-solid fa-bars fa-xl header-icon hamburger"></i></button> 
                 </div>          
             </div>
             

@@ -131,8 +131,10 @@
   
 /* Sidebar Navigation */
 
+
+
 #sidebar-nav{
-  height: 100%; /* 100% Full-height */
+  height: 100vh; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 3; /* Stay on top */
@@ -140,8 +142,9 @@
   left: 0;
   background-color: #BFD630; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
+  
   padding-top: 60px; /* Place content 60px from the top */
-  transition: 1s; /* 0.5 second transition effect to slide in the sidenav */
+  transition: 1s; /* 1 second transition effect to slide in the sidenav */
 
 }
 
@@ -153,10 +156,12 @@
   margin-left: 50px;
 }
 
-#main {
+main {
   transition: margin-left .5s;
-  padding: 20px;
+  
 }
+
+
 
 
   
