@@ -59,6 +59,20 @@ function openSearch() {
   
   
 
+// Sidenav
+
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+    document.getElementById("sidebar-nav").style.width = "22rem";
+    document.getElementById("main").style.marginLeft = "22rem";
+  }
+  
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+  function closeNav() {
+    document.getElementById("sidebar-nav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+
 //Announcement Box
 
 function announcementClose() {
