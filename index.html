@@ -27,6 +27,17 @@
 </head>
 
 <body>
+
+    <div id="sidebar-nav" class="sidenav">
+        
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+
+<main>
     
 <div class="hero-wrapper">
      <header id="header" class="header1 row container-fluid p-0 m-0 ">
@@ -46,7 +57,7 @@
         <div class="header-container" id="header-container">
             <div class="col-3 hamburger-col pt-4 text-left">
                 <div class="nav-box pt-3">
-                    <i class="fa-solid fa-bars fa-xl header-icon hamburger"></i>    
+                    <button onclick="openNav()"><i class="fa-solid fa-bars fa-xl header-icon hamburger"></i></button> 
                 </div>          
             </div>
             
@@ -59,6 +70,8 @@
             </div>
         </div>
     </header>
+
+   
 
   
         
