@@ -31,8 +31,15 @@
 <div class="hero-wrapper">
      <header id="header" class="header1 row container-fluid p-0 m-0 ">
         <div class="container-fluid" id="header-search-container">
-            <div class="container d-flex align-items-center search-input-box">
-                <i class="fa-solid fa-xl fa-magnifying-glass " id="site-search-icon"></i><input type="search" id="site-search" name="site-search" placeholder="Search the site">
+            <div class="container d-flex align-items-center search-input-box justify-content-between">
+                <div class="search-left">
+                    <i class="fa-solid fa-xl fa-magnifying-glass " id="site-search-icon"></i><input type="search" id="site-search" name="site-search" placeholder="Search the site">
+                </div>
+                <div class="search-right">
+                    <button onclick="closeSearch()">
+                        <i class="fa-solid fa-xmark fa-lg mb-3"></i>                        
+                    </button>
+                </div>
             </div>
         </div>
 
