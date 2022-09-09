@@ -32,17 +32,38 @@
     <div id="sidebar-nav" class="sidenav">
 
         <div class="row">
-            <div class="col-12 p-5">
-        
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Clients</a>
-                <a href="#">Contact</a>
-
+            <div class="col-md-2 m-0 p-0">
+              
+              <!-- menu -->
+              <div id="MainMenu">
+                <div class="list-group panel">
+                  <a href="#" class="list-group-item list-group-item-success" data-parent="#MainMenu">Home</a>
+                  <a href="#demo3" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Our Academy<i class="fa fa-caret-down"></i></a>
+                  <div class="collapse" id="demo3">
+                    <a href="#SubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubMenu1">Subitem 1 <i class="fa fa-caret-down"></i></a>
+                    <div class="collapse list-group-submenu" id="SubMenu1">
+                      <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 1 a</a>
+                      <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 2 b</a>
+                      <a href="#SubSubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubSubMenu1">Subitem 3 c <i class="fa fa-caret-down"></i></a>
+                      <div class="collapse list-group-submenu list-group-submenu-1" id="SubSubMenu1">
+                        <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Sub sub item 1</a>
+                        <a href="#" class="list-group-item" data-parent="#SubSubMenu1">Sub sub item 2</a>
+                      </div>
+                      <a href="#" class="list-group-item" data-parent="#SubMenu1">Subitem 4 d</a>
+                    </div>
+                    <a href="javascript:;" class="list-group-item">Subitem 2</a>
+                    <a href="javascript:;" class="list-group-item">Subitem 3</a>
+                  </div>
+                  <a href="#demo4" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Item 4  <i class="fa fa-caret-down"></i></a>
+                  <div class="collapse" id="demo4">
+                    <a href="" class="list-group-item">Subitem 1</a>
+                    <a href="" class="list-group-item">Subitem 2</a>
+                    <a href="" class="list-group-item">Subitem 3</a>
+                  </div>
+                </div>
+              </div>
             </div>
-
-        </div>
+          </div>
     </div>
 
     
@@ -766,8 +787,10 @@
       <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <!-- jquery-->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>   
-
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
    <!--Slick slider-->   
 
    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
