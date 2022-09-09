@@ -62,8 +62,8 @@ function openSearch() {
 
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
 function openNav() {
-    document.getElementById("sidebar-nav").style.width = "22rem";
-    document.getElementById("main").style.marginLeft = "22rem";
+    document.getElementById("sidebar-nav").style.width = "26rem";
+    document.getElementById("main").style.marginLeft = "26rem";
     document.body.style.backgroundColor = "rgba(0,0,0,0.8)";
     window.onscroll = () => { window.scroll(0, 0); };
     
