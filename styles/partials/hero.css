@@ -133,6 +133,7 @@
 
 
 
+
 #sidebar-nav{
   height: 100vh; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
@@ -140,7 +141,7 @@
   z-index: 3; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #BFD630; /* Black*/
+  background-color: #c0ce72; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   
   padding-top: 60px; /* Place content 60px from the top */
@@ -148,7 +149,7 @@
 
 }
 
-.sidenav .closebtn {
+.closebtn {
   position: absolute;
   top: 0;
   right: 25px;
@@ -161,7 +162,67 @@ main {
   
 }
 
+/* Navbar */
+
+#MainMenu{
+  width: 100%;
+  
+  
+}
+#MainMenu *{
+  color: white;
+}
+
+
+.list-group.panel > .list-group-item {
+  border-radius: 0;
+  border: none;
+}
+
+.list-group panel > * {
+  
+  
+}
+/*
+a.list-group-item:hover{
+  background-color: rgb(95, 175, 95);
+}
+*/
+
+.list-group-item{
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0.5rem;
+}
+
+.list-group-item:last-child{
+  border-radius: 0;
+}
+
+.list-group-item:first-child{
+  border-radius: 0;
+}
+
+.list-group-item-success{
+  color: white;
+}
+
+#MainMenu a{
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+
 
 
 
   
+
+
+
