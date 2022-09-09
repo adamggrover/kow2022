@@ -141,7 +141,11 @@
   z-index: 3; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #c0ce72; /* Black*/
+  background-color: #F5F5F5; 
+  
+  
+  
+  box-sizing: border-box;
   overflow-x: hidden; /* Disable horizontal scroll */
   
   padding-top: 60px; /* Place content 60px from the top */
@@ -168,9 +172,10 @@ main {
   width: 100%;
   
   
+  
 }
 #MainMenu *{
-  color: white;
+  color: #231F20;
 }
 
 
